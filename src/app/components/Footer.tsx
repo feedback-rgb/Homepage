@@ -1,4 +1,5 @@
 import { Mail, MapPin, Phone } from "lucide-react";
+import { Link } from "react-router-dom";
 import pawByteLogo from "@/assets/ic_app.png";
 
 export function Footer() {
@@ -70,7 +71,7 @@ export function Footer() {
               Download
             </h3>
             <a
-              href="https://play.google.com"
+              href="https://play.google.com/store/apps/dev?id=4622397716372917523"
               target="_blank"
               rel="noopener noreferrer"
               className="text-sm hover:text-cyan-400 transition-colors"

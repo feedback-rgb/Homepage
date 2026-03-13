@@ -5,10 +5,10 @@ import wallpaperAppIcon from '@/assets/ic_wallpaper.png';
 
 const app = {
   id: 1,
-  name: 'Paw Byte - Live Wallpaper Engine',
-  description: 'Transform your device with stunning live wallpapers. Create dynamic and beautiful backgrounds that bring your screen to life with smooth animations and customizable effects.',
+  name: 'Paw Byte Labs™ - Wallpaper Master',
+  description: 'Transform your Android screen with Wallpaper Master – the simple, powerful personalization app with 4K static wallpapers, smooth video wallpapers, and immersive 3D parallax effects. Designed for all styles and devices, it turns your home/lock screen into a stunning visual experience, making every unlock feel fresh.',
   icon: wallpaperAppIcon,
-  category: 'Personalization',
+  category: 'New',
   gradient: 'from-blue-600 to-cyan-500',
   downloadUrl: 'https://play.google.com/store/apps/details?id=com.pawbytelabs.wallpaper',
 };

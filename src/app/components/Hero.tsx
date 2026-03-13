@@ -29,7 +29,7 @@ export function Hero() {
             {/* Google Play Badge */}
             <div className="pt-4">
               <a 
-                href="https://play.google.com" 
+                href="https://play.google.com/store/apps/dev?id=4622397716372917523" 
                 target="_blank" 
                 rel="noopener noreferrer"
                 className="inline-block transition-transform hover:scale-105"
