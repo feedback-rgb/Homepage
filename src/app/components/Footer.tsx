@@ -92,7 +92,7 @@ export function Footer() {
                   href="mailto:contact@pawbytelabs.com"
                   className="text-sm hover:text-cyan-400 transition-colors"
                 >
-                  pawbytelabs@gmail.com
+                  feedback@pawbytelabs.com
                 </a>
               </li>
               <li className="flex items-start gap-2">

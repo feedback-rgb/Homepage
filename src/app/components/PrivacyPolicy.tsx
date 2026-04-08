@@ -56,7 +56,7 @@ export function PrivacyPolicy({ onBack }: PrivacyPolicyProps) {
             We value and protect your personal privacy
           </p>
           <p className="text-sm text-blue-200 mt-4">
-            Last updated: January 19, 2026
+            Last updated: April 8, 2026
           </p>
         </div>
       </section>
@@ -80,6 +80,76 @@ export function PrivacyPolicy({ onBack }: PrivacyPolicyProps) {
                 privacy policy will help you understand the
                 following:
               </p>
+            </div>
+
+            {/* Google Play & legal scope */}
+            <div className="space-y-6">
+              <h2 className="text-2xl font-bold text-gray-900">
+                Google Play, account deletion, and third-party
+                services
+              </h2>
+              <div className="space-y-4 text-gray-600">
+                <h3 className="text-lg font-semibold text-gray-900">
+                  Google Play and our Android apps
+                </h3>
+                <p className="leading-relaxed">
+                  This Privacy Policy applies to PawByteLabs
+                  mobile applications distributed on Google Play,
+                  including our wallpaper app (Android application
+                  ID:{" "}
+                  <strong>com.pawbytelabs.wallpaper</strong>). It
+                  describes how we access, collect, use, handle,
+                  and share user data in line with Google
+                  Play&apos;s User Data policy. The categories of
+                  data and practices we declare in the Google Play
+                  Console <strong>Data safety</strong> section are
+                  consistent with this policy; for app-version-
+                  specific details, refer to the Data safety
+                  section for the version you have installed.
+                </p>
+                <h3 className="text-lg font-semibold text-gray-900">
+                  Account and data deletion
+                </h3>
+                <p className="leading-relaxed">
+                  You may request deletion of your account or
+                  personal data associated with our apps by
+                  emailing{" "}
+                  <a
+                    className="text-blue-600 hover:underline"
+                    href="mailto:feedback@pawbytelabs.com"
+                  >
+                    feedback@pawbytelabs.com
+                  </a>
+                  . We will verify your request and process deletion
+                  within a reasonable period, except where we must
+                  retain certain information to comply with
+                  applicable law or resolve disputes.
+                </p>
+                <h3 className="text-lg font-semibold text-gray-900">
+                  Third-party SDKs and service providers
+                </h3>
+                <p className="leading-relaxed">
+                  Our apps may use third-party libraries or SDKs
+                  (for example, Google Play services, analytics,
+                  advertising, or crash reporting) only as needed to
+                  provide the service. How each category of data is
+                  used and shared is summarized in our Play Console
+                  Data safety declaration; third parties process data
+                  under their own privacy policies where they act as
+                  independent controllers or subprocessors.
+                </p>
+                <h3 className="text-lg font-semibold text-gray-900">
+                  Children&apos;s privacy
+                </h3>
+                <p className="leading-relaxed">
+                  Our apps are not directed to children under 13 (or
+                  the minimum age required in your region). We do
+                  not knowingly collect personal information from
+                  children. If you believe we have collected such
+                  information, contact us and we will delete it
+                  promptly.
+                </p>
+              </div>
             </div>
 
             {/* Section 1 */}
@@ -350,7 +420,7 @@ export function PrivacyPolicy({ onBack }: PrivacyPolicyProps) {
                 <div className="bg-gray-50 rounded-xl p-6 space-y-2">
                   <p>
                     <strong>Email:</strong>{" "}
-                    pawbytelabs@gmail.com
+                    feedback@pawbytelabs.com
                   </p>
                   <p>
                     <strong>Address:</strong> Yuhuangmiao

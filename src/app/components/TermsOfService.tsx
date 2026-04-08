@@ -58,7 +58,7 @@ export function TermsOfService({
             using our services
           </p>
           <p className="text-sm text-blue-200 mt-4">
-            Last updated: January 19, 2026
+            Last updated: April 8, 2026
           </p>
         </div>
       </section>
@@ -398,7 +398,7 @@ export function TermsOfService({
                 <div className="bg-gray-50 rounded-xl p-6 space-y-2">
                   <p>
                     <strong>Email:</strong>{" "}
-                    pawbytelabs@gmail.com
+                    feedback@pawbytelabs.com
                   </p>
                   <p>
                     <strong>Address:</strong> Yuhuangmiao

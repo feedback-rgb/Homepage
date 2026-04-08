@@ -1,0 +1,8 @@
+User-agent: *
+Allow: /
+
+# Public legal pages (no-index not used; allow crawlers for policy verification)
+Allow: /privacy
+Allow: /privacy/
+
+Sitemap: https://www.pawbytelabs.com/sitemap.xml
