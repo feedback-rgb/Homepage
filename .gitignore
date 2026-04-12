@@ -2,6 +2,8 @@
 node_modules/
 .pnp
 .pnp.js
+# pnpm is the source of truth (pnpm-lock.yaml); ignore npm lockfile
+package-lock.json
 
 # Build output
 dist/
