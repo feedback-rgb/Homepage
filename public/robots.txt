@@ -6,5 +6,6 @@ Allow: /privacy
 Allow: /privacy/
 Allow: /terms
 Allow: /terms/
+Allow: /app-ads.txt
 
 Sitemap: https://pawbytelabs.com/sitemap.xml
