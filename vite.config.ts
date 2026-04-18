@@ -16,5 +16,7 @@ export default defineConfig({
       '@': path.resolve(__dirname, './src'),
     },
   },
+  // app-ads.txt, robots.txt, etc. live in public/ and are served at / during dev
+  // and copied to dist root on build (Vite default: https://vitejs.dev/guide/assets.html#the-public-directory)
   publicDir: 'public',
 })
