@@ -9,8 +9,8 @@ const app = {
   icon: wallpaperAppIcon,
   category: 'New',
   playStoreUrl: 'https://play.google.com/store/apps/details?id=com.pawbytelabs.wallpaper',
-  // Replace public/downloads/wallpaper-master-latest.apk when shipping a new build
-  apkUrl: '/downloads/wallpaper-master-latest.apk',
+  // Hosted on S3/CloudFront (pawbyte-wallpaper). Overwrite the same key for each new build.
+  apkUrl: 'https://wallpaper.pawbytelabs.com/downloads/wallpaper-master-latest.apk',
   apkFileName: 'Wallpaper-Master-latest.apk',
 };
 
