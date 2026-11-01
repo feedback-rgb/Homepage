@@ -29,3 +29,7 @@ npm-debug.log*
 # Amplify
 amplify/
 .amplifyrc
+
+# APK packages (too large for GitHub; keep locally / upload to CDN for prod)
+public/downloads/*.apk
+*.apk

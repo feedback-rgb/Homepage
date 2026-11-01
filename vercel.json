@@ -12,6 +12,23 @@
           "value": "public, max-age=3600"
         }
       ]
+    },
+    {
+      "source": "/downloads/(.*)\\.apk",
+      "headers": [
+        {
+          "key": "Content-Type",
+          "value": "application/vnd.android.package-archive"
+        },
+        {
+          "key": "Content-Disposition",
+          "value": "attachment"
+        },
+        {
+          "key": "Cache-Control",
+          "value": "public, max-age=300"
+        }
+      ]
     }
   ],
   "rewrites": [
@@ -19,6 +36,7 @@
     { "source": "/privacy/", "destination": "/privacy/index.html" },
     { "source": "/terms", "destination": "/terms/index.html" },
     { "source": "/terms/", "destination": "/terms/index.html" },
-    { "source": "/(.*)", "destination": "/index.html" }
+    { "source": "/downloads/(.*)", "destination": "/downloads/$1" },
+    { "source": "/((?!downloads/).*)", "destination": "/index.html" }
   ]
 }
