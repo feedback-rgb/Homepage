@@ -1,1 +1,5 @@
+# Google AdMob
 google.com, pub-2156704278166341, DIRECT, f08c47fec0942fa0
+
+# InMobi (AdMob mediation bidding)
+inmobi.com, f843b599c7ad434f80750680a70df4d9, RESELLER, 83e75a7ae333ca9d
